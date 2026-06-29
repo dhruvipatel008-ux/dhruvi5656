@@ -99,7 +99,7 @@ st.markdown("""
 # ═══════════════════════════════════════════════════════════════════════════
 @st.cache_data
 def load_and_clean():
-    df = pd.read_csv("/mnt/user-data/uploads/synthetic_survey_data_bundling.csv")
+    df = pd.read_csv("synthetic_survey_data_bundling.csv")
     
     cleaning_log = []
     original_shape = df.shape
